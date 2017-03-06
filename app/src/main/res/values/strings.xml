@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="app_name">UBI Info App</string>
+    <string name="ble_not_supported">BLE is not supported</string>
+    <string name="label_data">Data:</string>
+    <string name="label_data1">Info:</string>
+    <string name="label_device_address">Device address:</string>
+    <string name="label_state">State:</string>
+    <string name="no_data">No data</string>
+    <string name="connected">Connected</string>
+    <string name="disconnected">Disconnected</string>
+    <string name="title_devices">BLE Device Scan</string>
+    <string name="error_bluetooth_not_supported">Bluetooth not supported.</string>
+
+    <string name="unknown_device">Unknown device</string>
+    <string name="unknown_characteristic">Unknown characteristic</string>
+    <string name="unknown_service">Unknown service</string>
+
+    <!-- Menu items -->
+    <string name="menu_connect">Connect</string>
+    <string name="menu_disconnect">Disconnect</string>
+    <string name="menu_scan">Scan</string>
+    <string name="menu_stop">Stop</string>
+    
+    
+    <!-- Button items -->
+    <string name="button_clear">Clear</string>
+    <string name="button_write">write</string>
+    <string name="button_read">read</string>
+    
+    <string name="button_UBI_Info">Information</string>
+    <string name="button_UBI_Service">Service</string>
+    <string name="button_UBI_Error">Error</string>
+    <string name="button_UBI_Tire_Pressure">Tire Pressure</string>
+    
+    
+    <!-- UBI Info items -->
+    <string name="speed">speed</string>
+    <string name="travel_distance">Travel distance</string>
+    <string name="sharp_turn_acceleration">Sharp turn acceleration</string>
+    <string name="idle_time">Idle time</string>
+    <string name="identifier">Identifier</string>
+    
+    <!-- UBI Info Server items -->
+    <string name="Oil_condition">Oil condition</string>
+    <string name="Engine_load">Engine load</string>
+    <string name="Engine_coolant_temperature">Engine coolant temperature</string>
+    <string name="Air_flow">Air_flow</string>
+    <string name="Intake_air_temperature">Intake air temperature</string>
+    <string name="Rotating_speed">Rotating speed</string>
+    <string name="Throttle_position">Throttle position</string>
+    <string name="Battery_voltage">Battery voltage</string>
+    <string name="Tire_pressure_condition">Tire pressure condition</string>
+    <string name="Fuel_consumption">Fuel consumption</string>
+    <string name="Global_Positioning_System">GPS</string>
+    
+    <!-- UBI Error items -->
+    <string name="U1U2">Error(U1U2)</string>
+    <string name="V1V2">Error(V1V2)</string>
+    <string name="W1W2">Error(W1W2)</string>
+    <string name="X1X2">Error(X1X2)</string>
+    <string name="Y1Y2">Error(Y1Y2)</string>
+    
+    <!-- UBI Tire Pressure items -->
+    <string name="ID1">SensorID1</string>
+    <string name="ID2">SensorID2</string>
+    <string name="ID3">SensorID3</string>
+    <string name="ID4">SensorID4</string>
+    <string name="ID5">SensorID5</string>
+    <string name="Temperature">Temperature</string>
+    <string name="Pressure">Pressure</string>
+    <string name="Tire_pressure_Voltage">Voltage</string>
+    
+    
+</resources>

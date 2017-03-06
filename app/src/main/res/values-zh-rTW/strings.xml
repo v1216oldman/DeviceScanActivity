@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="app_name">UBI Info App</string>
+    <string name="ble_not_supported">BLE is not supported</string>
+    <string name="label_data">Data:</string>
+    <string name="label_data1">Info:</string>
+    <string name="label_device_address">Device address:</string>
+    <string name="label_state">State:</string>
+    <string name="no_data">No data</string>
+    <string name="connected">Connected</string>
+    <string name="disconnected">Disconnected</string>
+    <string name="title_devices">BLE Device Scan</string>
+    <string name="error_bluetooth_not_supported">Bluetooth not supported.</string>
+
+    <string name="unknown_device">Unknown device</string>
+    <string name="unknown_characteristic">Unknown characteristic</string>
+    <string name="unknown_service">Unknown service</string>
+
+    <!-- Menu items -->
+    <string name="menu_connect">Connect</string>
+    <string name="menu_disconnect">Disconnect</string>
+    <string name="menu_scan">Scan</string>
+    <string name="menu_stop">Stop</string>
+
+
+    <!-- Button items -->
+    <string name="button_clear">Clear</string>
+    <string name="button_write">write</string>
+    <string name="button_read">read</string>
+
+    <string name="button_UBI_Info">資訊</string>
+    <string name="button_UBI_Service">服務</string>
+    <string name="button_UBI_Error">故障</string>
+    <string name="button_UBI_Tire_Pressure">胎壓</string>
+
+
+    <!-- UBI Info items -->
+    <string name="speed">車速</string>
+    <string name="travel_distance">行駛距離</string>
+    <string name="sharp_turn_acceleration">急轉彎加速度</string>
+    <string name="idle_time">怠速時間</string>
+    <string name="identifier">識別碼</string>
+
+    <!-- UBI Info Server items -->
+    <string name="Oil_condition">油路狀況</string>
+    <string name="Engine_load">引擎負載</string>
+    <string name="Engine_coolant_temperature">引擎冷卻液溫度</string>
+    <string name="Air_flow">空氣流量</string>
+    <string name="Intake_air_temperature">進氣溫度</string>
+    <string name="Rotating_speed">引擎轉速</string>
+    <string name="Throttle_position">油門位置</string>
+    <string name="Battery_voltage">電瓶電壓</string>
+    <string name="Tire_pressure_condition">胎壓狀況</string>
+    <string name="Fuel_consumption">油耗</string>
+    <string name="Global_Positioning_System">全球定位系統</string>
+
+    <!-- UBI Error items -->
+    <string name="U1U2">Error(U1U2)</string>
+    <string name="V1V2">Error(V1V2)</string>
+    <string name="W1W2">Error(W1W2)</string>
+    <string name="X1X2">Error(X1X2)</string>
+    <string name="Y1Y2">Error(Y1Y2)</string>
+
+    <!-- UBI Tire Pressure items -->
+    <string name="ID1">感知器ID1</string>
+    <string name="ID2">感知器ID2</string>
+    <string name="ID3">感知器ID3</string>
+    <string name="ID4">感知器ID4</string>
+    <string name="ID5">感知器ID5</string>
+    <string name="Temperature">溫度</string>
+    <string name="Pressure">壓力</string>
+    <string name="Tire_pressure_Voltage">電壓</string>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</resources>

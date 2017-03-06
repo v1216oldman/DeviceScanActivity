@@ -535,10 +535,7 @@ public class DeviceControlActivity extends Activity {
 								 +this.getString(R.string.ID4)+" : "+ ID4+ "\n"
 								 +this.getString(R.string.Temperature)+" : "+ T+" °C"+ "\n"
 								 +this.getString(R.string.Pressure)+" : "+ P+" psi"+ "\n"
-								 +this.getString(R.string.Tire_pressure_Voltage)+" : "+ TPV+" volt"+ "\n"
-						
-						);
-				
+								 +this.getString(R.string.Tire_pressure_Voltage)+" : "+ TPV+" volt"+ "\n");
 				
 				break;
 

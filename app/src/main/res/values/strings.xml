@@ -17,6 +17,16 @@
     <string name="unknown_characteristic">Unknown characteristic</string>
     <string name="unknown_service">Unknown service</string>
 
+    <!--Dialog items-->
+    <string name="dialog_tittle">A courtesy reminder</string>
+    <string name="dialog_positive_button">determine</string>
+    <string name="dialog_message_info">UBI Information</string>
+    <string name="dialog_message_service">UBI Information Service</string>
+    <string name="dialog_message_error">UBI Error</string>
+    <string name="dialog_message_tire_pressure">UBI Tre_Pressure</string>
+
+
+
     <!-- Menu items -->
     <string name="menu_connect">Connect</string>
     <string name="menu_disconnect">Disconnect</string>

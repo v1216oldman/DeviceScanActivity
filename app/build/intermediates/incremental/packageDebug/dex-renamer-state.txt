@@ -1,7 +1,7 @@
-#Mon Mar 06 14:21:32 CST 2017
-base.0=F\:\\android_App\\DeviceScanActivity\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_c09e4b03a1d3e35d0bed8088b00fea4d5d314dc7
+#Tue Mar 14 16:49:12 CST 2017
+base.0=F\:\\android_App\\DeviceScanActivity\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_a86cfa49d23344967165dbbd45cd5b1f73d24a78
 renamed.1=classes2.dex
 renamed.0=classes.dex
-file.1=F\:\\android_App\\DeviceScanActivity\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_a86cfa49d23344967165dbbd45cd5b1f73d24a78\\classes.dex
-base.1=F\:\\android_App\\DeviceScanActivity\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_a86cfa49d23344967165dbbd45cd5b1f73d24a78
-file.0=F\:\\android_App\\DeviceScanActivity\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_c09e4b03a1d3e35d0bed8088b00fea4d5d314dc7\\classes.dex
+file.1=F\:\\android_App\\DeviceScanActivity\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_c09e4b03a1d3e35d0bed8088b00fea4d5d314dc7\\classes.dex
+base.1=F\:\\android_App\\DeviceScanActivity\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_c09e4b03a1d3e35d0bed8088b00fea4d5d314dc7
+file.0=F\:\\android_App\\DeviceScanActivity\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_a86cfa49d23344967165dbbd45cd5b1f73d24a78\\classes.dex

@@ -17,6 +17,14 @@
     <string name="unknown_characteristic">Unknown characteristic</string>
     <string name="unknown_service">Unknown service</string>
 
+    <!--Dialog items-->
+    <string name="dialog_tittle">UBI訊息</string>
+    <string name="dialog_positive_button">確定</string>
+    <string name="dialog_message_info">UBI正常資料</string>
+    <string name="dialog_message_service">UBI加值服務</string>
+    <string name="dialog_message_error">UBI故障資料</string>
+    <string name="dialog_message_tire_pressure">UBI胎壓資料</string>
+
     <!-- Menu items -->
     <string name="menu_connect">Connect</string>
     <string name="menu_disconnect">Disconnect</string>

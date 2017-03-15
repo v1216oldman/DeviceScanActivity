@@ -180,6 +180,12 @@
     <string name="button_read">read</string>
     <string name="button_write">write</string>
     <string name="connected">Connected</string>
+    <string name="dialog_message_error">UBI Error</string>
+    <string name="dialog_message_info">UBI Information</string>
+    <string name="dialog_message_service">UBI Information Service</string>
+    <string name="dialog_message_tire_pressure">UBI Tre_Pressure</string>
+    <string name="dialog_positive_button">determine</string>
+    <string name="dialog_tittle">A courtesy reminder</string>
     <string name="disconnected">Disconnected</string>
     <string name="error_bluetooth_not_supported">Bluetooth not supported.</string>
     <string name="identifier">Identifier</string>
@@ -200,4 +206,13 @@
     <string name="unknown_characteristic">Unknown characteristic</string>
     <string name="unknown_device">Unknown device</string>
     <string name="unknown_service">Unknown service</string>
+    <style name="Custom_Progress" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
 </resources>

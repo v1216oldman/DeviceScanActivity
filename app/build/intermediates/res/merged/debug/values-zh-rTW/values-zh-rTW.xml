@@ -34,6 +34,12 @@
     <string name="button_read">read</string>
     <string name="button_write">write</string>
     <string name="connected">Connected</string>
+    <string name="dialog_message_error">UBI故障資料</string>
+    <string name="dialog_message_info">UBI正常資料</string>
+    <string name="dialog_message_service">UBI加值服務</string>
+    <string name="dialog_message_tire_pressure">UBI胎壓資料</string>
+    <string name="dialog_positive_button">確定</string>
+    <string name="dialog_tittle">提示</string>
     <string name="disconnected">Disconnected</string>
     <string name="error_bluetooth_not_supported">Bluetooth not supported.</string>
     <string name="identifier">識別碼</string>

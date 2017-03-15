@@ -1,6 +1,46 @@
 [
     {
+        "merged": "F:\\android_App\\DeviceScanActivity\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ubi_error.png",
+        "source": "F:\\android_App\\DeviceScanActivity\\app\\src\\main\\res\\drawable-hdpi\\ubi_error.png"
+    },
+    {
+        "merged": "F:\\android_App\\DeviceScanActivity\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ubi_info_service_down.png",
+        "source": "F:\\android_App\\DeviceScanActivity\\app\\src\\main\\res\\drawable-hdpi\\ubi_info_service_down.png"
+    },
+    {
+        "merged": "F:\\android_App\\DeviceScanActivity\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ble_on.png",
+        "source": "F:\\android_App\\DeviceScanActivity\\app\\src\\main\\res\\drawable-hdpi\\ble_on.png"
+    },
+    {
+        "merged": "F:\\android_App\\DeviceScanActivity\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ubi_error_down.png",
+        "source": "F:\\android_App\\DeviceScanActivity\\app\\src\\main\\res\\drawable-hdpi\\ubi_error_down.png"
+    },
+    {
+        "merged": "F:\\android_App\\DeviceScanActivity\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ubi_info_service.png",
+        "source": "F:\\android_App\\DeviceScanActivity\\app\\src\\main\\res\\drawable-hdpi\\ubi_info_service.png"
+    },
+    {
+        "merged": "F:\\android_App\\DeviceScanActivity\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ubi_info.png",
+        "source": "F:\\android_App\\DeviceScanActivity\\app\\src\\main\\res\\drawable-hdpi\\ubi_info.png"
+    },
+    {
+        "merged": "F:\\android_App\\DeviceScanActivity\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ubi_tire_pressure.png",
+        "source": "F:\\android_App\\DeviceScanActivity\\app\\src\\main\\res\\drawable-hdpi\\ubi_tire_pressure.png"
+    },
+    {
+        "merged": "F:\\android_App\\DeviceScanActivity\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ubi_tire_pressure_down.png",
+        "source": "F:\\android_App\\DeviceScanActivity\\app\\src\\main\\res\\drawable-hdpi\\ubi_tire_pressure_down.png"
+    },
+    {
         "merged": "F:\\android_App\\DeviceScanActivity\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_launcher.png",
         "source": "F:\\android_App\\DeviceScanActivity\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "F:\\android_App\\DeviceScanActivity\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ubi_info_down.png",
+        "source": "F:\\android_App\\DeviceScanActivity\\app\\src\\main\\res\\drawable-hdpi\\ubi_info_down.png"
+    },
+    {
+        "merged": "F:\\android_App\\DeviceScanActivity\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ble_off.png",
+        "source": "F:\\android_App\\DeviceScanActivity\\app\\src\\main\\res\\drawable-hdpi\\ble_off.png"
     }
 ]

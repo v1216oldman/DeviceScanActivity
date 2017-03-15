@@ -10,5 +10,13 @@
     {
         "merged": "F:\\android_App\\DeviceScanActivity\\app\\build\\intermediates\\res\\merged\\debug\\layout\\gatt_services_characteristics.xml",
         "source": "F:\\android_App\\DeviceScanActivity\\app\\src\\main\\res\\layout\\gatt_services_characteristics.xml"
+    },
+    {
+        "merged": "F:\\android_App\\DeviceScanActivity\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ubi_info.xml",
+        "source": "F:\\android_App\\DeviceScanActivity\\app\\src\\main\\res\\layout\\ubi_info.xml"
+    },
+    {
+        "merged": "F:\\android_App\\DeviceScanActivity\\app\\build\\intermediates\\res\\merged\\debug\\layout\\zzj_waitprogress.xml",
+        "source": "F:\\android_App\\DeviceScanActivity\\app\\src\\main\\res\\layout\\zzj_waitprogress.xml"
     }
 ]

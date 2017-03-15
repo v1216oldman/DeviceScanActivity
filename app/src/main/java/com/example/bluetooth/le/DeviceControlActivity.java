@@ -16,18 +16,23 @@
 
 package com.example.bluetooth.le;
 
-import android.R.integer;
-import android.R.string;
+
 import android.app.Activity;
+import android.app.AlertDialog;
+import android.app.Dialog;
 import android.bluetooth.BluetoothGattCharacteristic;
 import android.bluetooth.BluetoothGattService;
 import android.content.BroadcastReceiver;
 import android.content.ComponentName;
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.content.ServiceConnection;
+import android.graphics.Color;
 import android.os.Bundle;
+import android.os.Handler;
+import android.os.HandlerThread;
 import android.os.IBinder;
 import android.util.Log;
 import android.view.Menu;
@@ -36,6 +41,9 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.ExpandableListView;
+import android.widget.ImageButton;
+import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.SimpleExpandableListAdapter;
 import android.widget.TextView;
 
@@ -43,6 +51,15 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.UUID;
+
+import org.achartengine.ChartFactory;
+import org.achartengine.GraphicalView;
+import org.achartengine.model.CategorySeries;
+import org.achartengine.renderer.DialRenderer;
+import org.achartengine.renderer.DialRenderer.Type;
+import org.achartengine.renderer.SimpleSeriesRenderer;
+
+
 
 /**
  * For a given BLE device, this Activity provides the user interface to connect,
@@ -62,6 +79,8 @@ public class DeviceControlActivity extends Activity {
 	private String mDeviceName;
 	private String mDeviceAddress;
 	private Button button_clear,button_UBI_Info,button_UBI_Service,button_UBI_Error,button_UBI_Tire_Pressure;
+	private ImageButton imageBtn_UBI_info,imageBtn_UBI_info_service,imageBtn_UBI_error,imageBtn_UBI_tire_pressure;
+	private ImageView imageView_ble_state;
 	private ExpandableListView mGattServicesList;
 	private BluetoothLeService mBluetoothLeService;
 	private ArrayList<ArrayList<BluetoothGattCharacteristic>> mGattCharacteristics = new ArrayList<ArrayList<BluetoothGattCharacteristic>>();
@@ -72,6 +91,12 @@ public class DeviceControlActivity extends Activity {
 	private final String LIST_UUID = "UUID";
 
 	private BluetoothGattCharacteristic bluetoothGattCharacteristic_UBI;
+
+
+
+	private Handler mUI_Handler = new Handler();
+	private Handler mThreadHandler;
+	private HandlerThread mThread;
 
 	// Code to manage Service lifecycle.
 	private final ServiceConnection mServiceConnection = new ServiceConnection() {
@@ -182,6 +207,11 @@ public class DeviceControlActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.gatt_services_characteristics);
 
+		mThread = new HandlerThread("name");
+		mThread.start();
+		mThreadHandler=new Handler(mThread.getLooper());
+
+
 		final Intent intent = getIntent();
 		mDeviceName = intent.getStringExtra(EXTRAS_DEVICE_NAME);
 		mDeviceAddress = intent.getStringExtra(EXTRAS_DEVICE_ADDRESS);
@@ -195,6 +225,123 @@ public class DeviceControlActivity extends Activity {
 		mDataField = (TextView) findViewById(R.id.data_value);
 		data_info = (TextView) findViewById(R.id.data_info);
 
+		imageView_ble_state = (ImageView)findViewById(R.id.imageView_ble_state);
+
+		imageBtn_UBI_info = (ImageButton)findViewById(R.id.imageBtn_UBI_info);
+		imageBtn_UBI_info_service = (ImageButton)findViewById(R.id.imageBtn_UBI_info_service);
+		imageBtn_UBI_error = (ImageButton)findViewById(R.id.imageBtn_UBI_error);
+		imageBtn_UBI_tire_pressure = (ImageButton)findViewById(R.id.imageBtn_UBI_tire_pressure);
+
+
+		imageBtn_UBI_info.setOnClickListener(new Button.OnClickListener()
+		{
+			@Override
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+				Dialog dialog=new AlertDialog.Builder(DeviceControlActivity.this)
+						.setTitle(R.string.dialog_tittle)
+						.setMessage(R.string.dialog_message_info)
+						.setIcon(R.drawable.ubi_info_down)
+						.setPositiveButton(R.string.dialog_positive_button,new DialogInterface.OnClickListener() {
+
+							@Override
+							public void onClick(DialogInterface dialog, int which) {
+								// TODO Auto-generated method stub
+
+								mThreadHandler.post(r1);
+								mThreadHandler.removeCallbacks(r2);
+								mThreadHandler.removeCallbacks(r3);
+								mThreadHandler.removeCallbacks(r4);
+
+							}
+						}).create();
+				dialog.show();
+			}
+
+		});
+
+		imageBtn_UBI_info_service.setOnClickListener(new Button.OnClickListener()
+		{
+			@Override
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+				Dialog dialog=new AlertDialog.Builder(DeviceControlActivity.this)
+						.setTitle(R.string.dialog_tittle)
+						.setMessage(R.string.dialog_message_service)
+						.setIcon(R.drawable.ubi_info_service_down)
+						.setPositiveButton(R.string.dialog_positive_button,new DialogInterface.OnClickListener() {
+
+							@Override
+							public void onClick(DialogInterface dialog, int which) {
+								// TODO Auto-generated method stub
+
+								mThreadHandler.post(r2);
+								mThreadHandler.removeCallbacks(r1);
+								mThreadHandler.removeCallbacks(r3);
+								mThreadHandler.removeCallbacks(r4);
+
+							}
+						}).create();
+				dialog.show();
+			}
+
+		});
+
+		imageBtn_UBI_error.setOnClickListener(new Button.OnClickListener()
+		{
+			@Override
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+				Dialog dialog=new AlertDialog.Builder(DeviceControlActivity.this)
+						.setTitle(R.string.dialog_tittle)
+						.setMessage(R.string.dialog_message_error)
+						.setIcon(R.drawable.ubi_error_down)
+						.setPositiveButton(R.string.dialog_positive_button,new DialogInterface.OnClickListener() {
+
+							@Override
+							public void onClick(DialogInterface dialog, int which) {
+								// TODO Auto-generated method stub
+
+								mThreadHandler.post(r3);
+								mThreadHandler.removeCallbacks(r1);
+								mThreadHandler.removeCallbacks(r2);
+								mThreadHandler.removeCallbacks(r4);
+
+							}
+						}).create();
+				dialog.show();
+			}
+
+		});
+
+
+		imageBtn_UBI_tire_pressure.setOnClickListener(new Button.OnClickListener()
+		{
+			@Override
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+				Dialog dialog=new AlertDialog.Builder(DeviceControlActivity.this)
+						.setTitle(R.string.dialog_tittle)
+						.setMessage(R.string.dialog_message_tire_pressure)
+						.setIcon(R.drawable.ubi_tire_pressure_down)
+						.setPositiveButton(R.string.dialog_positive_button,new DialogInterface.OnClickListener() {
+
+							@Override
+							public void onClick(DialogInterface dialog, int which) {
+								// TODO Auto-generated method stub
+
+								mThreadHandler.post(r4);
+								mThreadHandler.removeCallbacks(r1);
+								mThreadHandler.removeCallbacks(r2);
+								mThreadHandler.removeCallbacks(r3);
+
+							}
+						}).create();
+				dialog.show();
+			}
+
+		});
+
 		GetButtonView();
 		setButtonEvent();
 
@@ -203,6 +350,53 @@ public class DeviceControlActivity extends Activity {
 		Intent gattServiceIntent = new Intent(this, BluetoothLeService.class);
 		bindService(gattServiceIntent, mServiceConnection, BIND_AUTO_CREATE);
 	}
+
+	private Runnable r1=new Runnable () {
+
+		public void run() {
+
+			// TODO Auto-generated method stub
+			AT_N();
+			mThreadHandler.postDelayed(this, 2000);
+
+		}
+
+	};
+
+	private Runnable r2=new Runnable () {
+
+		public void run() {
+
+			// TODO Auto-generated method stub
+			AT_A();
+			mThreadHandler.postDelayed(this, 2000);
+
+		}
+
+	};
+	private Runnable r3=new Runnable () {
+
+		public void run() {
+
+			// TODO Auto-generated method stub
+			AT_M();
+			mThreadHandler.postDelayed(this, 2000);
+
+		}
+
+	};
+	private Runnable r4=new Runnable () {
+
+		public void run() {
+
+			// TODO Auto-generated method stub
+			AT_T();
+			mThreadHandler.postDelayed(this, 2000);
+
+		}
+
+	};
+
 
 	private void setButtonEvent() {
 		// TODO Auto-generated method stub
@@ -231,50 +425,38 @@ public class DeviceControlActivity extends Activity {
 			case R.id.button_clear:
 				mDataField.setText("");
 				data_info.setText("");
+
+				mThreadHandler.removeCallbacks(r1);
+				mThreadHandler.removeCallbacks(r2);
+				mThreadHandler.removeCallbacks(r3);
+				mThreadHandler.removeCallbacks(r4);
+
+				zzJ_waitProgress.show(DeviceControlActivity.this, "Loading...", true, null);
+
+				new Thread(new Runnable(){
+					@Override
+					public void run() {
+						try{
+							Thread.sleep(3000);
+						}
+						catch(Exception e){
+							e.printStackTrace();
+						}
+						finally{
+							zzJ_waitProgress.dialog.dismiss();
+						}
+					}
+				}).start();
+
+
+
+
 				break;
 			case R.id.button_UBI_Info:
-
-				String str_N = "AT+N=01";
-				byte[] bytes_N = str_N.getBytes();
-
-				bluetoothGattCharacteristic_UBI.setValue(bytes_N);
-				mBluetoothLeService
-						.writeCharacteristic(bluetoothGattCharacteristic_UBI);
-				mBluetoothLeService.setCharacteristicNotification(
-						bluetoothGattCharacteristic_UBI, true);
-								
-				try {
-					Thread.sleep(2000);
-				} catch (InterruptedException e) {
-					// TODO Auto-generated catch block
-					e.printStackTrace();
-				}
-				mBluetoothLeService
-						.readCharacteristic(bluetoothGattCharacteristic_UBI);
-
-						
-				
-
+				AT_N();
 				break;
 			case R.id.button_UBI_Service:
-
-				String str_A = "AT+A=01";
-				byte[] bytes_A = str_A.getBytes();	
-
-				bluetoothGattCharacteristic_UBI.setValue(bytes_A);
-				mBluetoothLeService
-						.writeCharacteristic(bluetoothGattCharacteristic_UBI);
-				mBluetoothLeService.setCharacteristicNotification(
-						bluetoothGattCharacteristic_UBI, true);
-
-				try {
-					Thread.sleep(2000);
-				} catch (InterruptedException e) {
-					// TODO Auto-generated catch block
-					e.printStackTrace();
-				}
-				mBluetoothLeService
-						.readCharacteristic(bluetoothGattCharacteristic_UBI);
+				AT_A();
 
 				/*
 				 * 
@@ -295,45 +477,13 @@ public class DeviceControlActivity extends Activity {
 				
 			case R.id.button_UBI_Error:
 
-				String str_M = "AT+M=01";
-				byte[] bytes_M = str_M.getBytes();
-
-				bluetoothGattCharacteristic_UBI.setValue(bytes_M);
-				mBluetoothLeService
-						.writeCharacteristic(bluetoothGattCharacteristic_UBI);
-				mBluetoothLeService.setCharacteristicNotification(
-						bluetoothGattCharacteristic_UBI, true);
-
-				try {
-					Thread.sleep(2000);
-				} catch (InterruptedException e) {
-					// TODO Auto-generated catch block
-					e.printStackTrace();
-				}
-				mBluetoothLeService
-						.readCharacteristic(bluetoothGattCharacteristic_UBI);
+				AT_M();
 
 				break;
 				
 			case R.id.button_UBI_Tire_Pressure:
 
-				String str_T = "AT+T=01";
-				byte[] bytes_T = str_T.getBytes();
-
-				bluetoothGattCharacteristic_UBI.setValue(bytes_T);
-				mBluetoothLeService
-						.writeCharacteristic(bluetoothGattCharacteristic_UBI);
-				mBluetoothLeService.setCharacteristicNotification(
-						bluetoothGattCharacteristic_UBI, true);
-
-				try {
-					Thread.sleep(2000);
-				} catch (InterruptedException e) {
-					// TODO Auto-generated catch block
-					e.printStackTrace();
-				}
-				mBluetoothLeService
-						.readCharacteristic(bluetoothGattCharacteristic_UBI);
+				AT_T();
 
 				break;
 
@@ -384,6 +534,20 @@ public class DeviceControlActivity extends Activity {
 		super.onDestroy();
 		unbindService(mServiceConnection);
 		mBluetoothLeService = null;
+
+
+		if (mThreadHandler != null) {
+			mThreadHandler.removeCallbacks(r1);
+			mThreadHandler.removeCallbacks(r2);
+			mThreadHandler.removeCallbacks(r3);
+			mThreadHandler.removeCallbacks(r4);
+		}
+
+		if (mThread != null) {
+			mThread.quit();
+		}
+
+
 	}
 
 	@Override
@@ -420,6 +584,17 @@ public class DeviceControlActivity extends Activity {
 			@Override
 			public void run() {
 				mConnectionState.setText(resourceId);
+
+				if (mConnected=true){
+					imageView_ble_state.setImageDrawable(getResources().getDrawable( R.drawable.ble_on));
+
+
+				}else {
+					imageView_ble_state.setImageDrawable(getResources().getDrawable( R.drawable.ble_off));
+				}
+
+
+
 			}
 		});
 	}
@@ -462,7 +637,11 @@ public class DeviceControlActivity extends Activity {
 				int TH=Integer.parseInt(DD[21],16);
 				int TM=Integer.parseInt(DD[22],16);
 				int TL=Integer.parseInt(DD[23],16);				    
-				int Idle=(TH*256*256)+(TM*256)+TL;								
+				int Idle=(TH*256*256)+(TM*256)+TL;
+
+
+
+
 				
 				data_info.setText(this.getString(R.string.speed)+" : "+ VC+ " Km/h"+ "\n"
 						+this.getString(R.string.travel_distance)+" : "+ distance+ " m"+ "\n"
@@ -629,4 +808,70 @@ public class DeviceControlActivity extends Activity {
 		intentFilter.addAction(BluetoothLeService.ACTION_DATA_AVAILABLE);
 		return intentFilter;
 	}
+
+	private void AT_N()
+	{
+
+		String str_N = "AT+N=01";
+		byte[] bytes_N = str_N.getBytes();
+
+		bluetoothGattCharacteristic_UBI.setValue(bytes_N);
+		mBluetoothLeService
+				.writeCharacteristic(bluetoothGattCharacteristic_UBI);
+		mBluetoothLeService.setCharacteristicNotification(
+				bluetoothGattCharacteristic_UBI, true);
+
+		try {
+			Thread.sleep(500);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		mBluetoothLeService
+				.readCharacteristic(bluetoothGattCharacteristic_UBI);
+
+	}
+	private  void R_W_data(byte[] bytes)
+	{
+		bluetoothGattCharacteristic_UBI.setValue(bytes);
+		mBluetoothLeService
+				.writeCharacteristic(bluetoothGattCharacteristic_UBI);
+		mBluetoothLeService.setCharacteristicNotification(
+				bluetoothGattCharacteristic_UBI, true);
+
+		try {
+			Thread.sleep(500);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		mBluetoothLeService
+				.readCharacteristic(bluetoothGattCharacteristic_UBI);
+	}
+	private void AT_A()
+	{
+		String str_A = "AT+A=01";
+		byte[] bytes_A = str_A.getBytes();
+		R_W_data(bytes_A);
+
+
+	}
+	private void AT_M()
+	{
+		String str_M = "AT+M=01";
+		byte[] bytes_M = str_M.getBytes();
+		R_W_data(bytes_M);
+
+	}
+
+	private void AT_T()
+	{
+		String str_T = "AT+T=01";
+		byte[] bytes_T = str_T.getBytes();
+		R_W_data(bytes_T);
+
+	}
+
+
+
 }

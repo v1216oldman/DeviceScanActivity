@@ -1,0 +1,4 @@
+#Wed Mar 08 16:33:07 CST 2017
+base.0=F\:\\android_App\\DeviceScanActivity\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_9
+renamed.0=classes.dex
+file.0=F\:\\android_App\\DeviceScanActivity\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_9\\classes.dex

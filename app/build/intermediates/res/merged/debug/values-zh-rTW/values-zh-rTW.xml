@@ -39,7 +39,7 @@
     <string name="dialog_message_service">UBI加值服務</string>
     <string name="dialog_message_tire_pressure">UBI胎壓資料</string>
     <string name="dialog_positive_button">確定</string>
-    <string name="dialog_tittle">提示</string>
+    <string name="dialog_tittle">UBI訊息</string>
     <string name="disconnected">Disconnected</string>
     <string name="error_bluetooth_not_supported">Bluetooth not supported.</string>
     <string name="identifier">識別碼</string>

@@ -1,0 +1,4 @@
+#Wed Mar 08 16:32:58 CST 2017
+base.0=F\:\\android_App\\DeviceScanActivity\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\2\\achartengine-1.1.0_679e1ec8fd82d090889edceb1dcc460409a26889
+renamed.0=classes.dex
+file.0=F\:\\android_App\\DeviceScanActivity\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\2\\achartengine-1.1.0_679e1ec8fd82d090889edceb1dcc460409a26889\\classes.dex

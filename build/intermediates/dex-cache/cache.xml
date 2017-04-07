@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="F:\android_App\DeviceScanActivity\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c8c0043423d3b0c59b1dd3666b2ae96053aa6815">
+        <dex dex="F:\android_App\DeviceScanActivity\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_a86cfa49d23344967165dbbd45cd5b1f73d24a78\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\android_App\DeviceScanActivity\app\libs\achartengine-1.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9932e3fb9fbe54e80873e77f72a99f79e33b3250">
+        <dex dex="F:\android_App\DeviceScanActivity\app\build\intermediates\transforms\dex\debug\folders\1000\2\achartengine-1.1.0_679e1ec8fd82d090889edceb1dcc460409a26889\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\android_App\DeviceScanActivity\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="F:\android_App\DeviceScanActivity\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_c09e4b03a1d3e35d0bed8088b00fea4d5d314dc7\classes.dex" />
+    </item>
+
+</items>

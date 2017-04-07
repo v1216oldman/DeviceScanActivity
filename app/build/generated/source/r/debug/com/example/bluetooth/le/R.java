@@ -191,35 +191,40 @@ public final class R {
         public static final int zzj_waitprogress_bg=0x7f02001d;
     }
     public static final class id {
-        public static final int button_UBI_Error=0x7f08000c;
-        public static final int button_UBI_Info=0x7f08000a;
-        public static final int button_UBI_Service=0x7f08000b;
-        public static final int button_UBI_Tire_Pressure=0x7f08000d;
-        public static final int button_clear=0x7f080009;
-        public static final int connection_state=0x7f080006;
-        public static final int data_info=0x7f080008;
-        public static final int data_value=0x7f080007;
-        public static final int device_address=0x7f080004;
-        public static final int device_name=0x7f08000e;
-        public static final int imageBtn_UBI_error=0x7f080002;
-        public static final int imageBtn_UBI_info=0x7f080000;
-        public static final int imageBtn_UBI_info_service=0x7f080001;
-        public static final int imageBtn_UBI_tire_pressure=0x7f080003;
-        public static final int imageView_ble_state=0x7f080005;
-        public static final int list=0x7f08000f;
-        public static final int menu_connect=0x7f080013;
-        public static final int menu_disconnect=0x7f080014;
-        public static final int menu_refresh=0x7f080012;
-        public static final int menu_scan=0x7f080015;
-        public static final int menu_stop=0x7f080016;
-        public static final int message=0x7f080011;
-        public static final int spinnerImageView=0x7f080010;
+        public static final int button_UBI_Error=0x7f08000f;
+        public static final int button_UBI_Info=0x7f08000d;
+        public static final int button_UBI_Service=0x7f08000e;
+        public static final int button_UBI_Tire_Pressure=0x7f080010;
+        public static final int button_clear=0x7f08000c;
+        public static final int connection_state=0x7f080009;
+        public static final int content_frame=0x7f080001;
+        public static final int data_info=0x7f08000b;
+        public static final int data_value=0x7f08000a;
+        public static final int device_address=0x7f080007;
+        public static final int device_name=0x7f080011;
+        public static final int drawer_layout=0x7f080000;
+        public static final int imageBtn_UBI_error=0x7f080005;
+        public static final int imageBtn_UBI_info=0x7f080003;
+        public static final int imageBtn_UBI_info_service=0x7f080004;
+        public static final int imageBtn_UBI_tire_pressure=0x7f080006;
+        public static final int imageView_ble_state=0x7f080008;
+        public static final int left_drawer=0x7f080002;
+        public static final int list=0x7f080012;
+        public static final int menu_connect=0x7f080016;
+        public static final int menu_disconnect=0x7f080017;
+        public static final int menu_refresh=0x7f080015;
+        public static final int menu_scan=0x7f080018;
+        public static final int menu_stop=0x7f080019;
+        public static final int message=0x7f080014;
+        public static final int spinnerImageView=0x7f080013;
     }
     public static final class layout {
         public static final int actionbar_indeterminate_progress=0x7f030000;
-        public static final int gatt_services_characteristics=0x7f030001;
-        public static final int listitem_device=0x7f030002;
-        public static final int zzj_waitprogress=0x7f030003;
+        public static final int activity_main=0x7f030001;
+        public static final int fragment_content=0x7f030002;
+        public static final int gatt_services_characteristics=0x7f030003;
+        public static final int listitem_device=0x7f030004;
+        public static final int zzj_waitprogress=0x7f030005;
     }
     public static final class menu {
         public static final int gatt_services=0x7f070000;

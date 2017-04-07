@@ -1,5 +1,13 @@
 [
     {
+        "merged": "F:\\android_App\\DeviceScanActivity\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_content.xml",
+        "source": "F:\\android_App\\DeviceScanActivity\\app\\src\\main\\res\\layout\\fragment_content.xml"
+    },
+    {
+        "merged": "F:\\android_App\\DeviceScanActivity\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "F:\\android_App\\DeviceScanActivity\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
         "merged": "F:\\android_App\\DeviceScanActivity\\app\\build\\intermediates\\res\\merged\\debug\\layout\\actionbar_indeterminate_progress.xml",
         "source": "F:\\android_App\\DeviceScanActivity\\app\\src\\main\\res\\layout\\actionbar_indeterminate_progress.xml"
     },

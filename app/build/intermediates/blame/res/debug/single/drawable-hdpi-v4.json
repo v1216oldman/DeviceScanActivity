@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "F:\\android_App\\DeviceScanActivity\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\info.xml",
+        "source": "F:\\android_App\\DeviceScanActivity\\app\\src\\main\\res\\drawable-hdpi\\info.xml"
+    },
+    {
+        "merged": "F:\\android_App\\DeviceScanActivity\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\error.xml",
+        "source": "F:\\android_App\\DeviceScanActivity\\app\\src\\main\\res\\drawable-hdpi\\error.xml"
+    },
+    {
+        "merged": "F:\\android_App\\DeviceScanActivity\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\service.xml",
+        "source": "F:\\android_App\\DeviceScanActivity\\app\\src\\main\\res\\drawable-hdpi\\service.xml"
+    },
+    {
+        "merged": "F:\\android_App\\DeviceScanActivity\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\tire_pressure.xml",
+        "source": "F:\\android_App\\DeviceScanActivity\\app\\src\\main\\res\\drawable-hdpi\\tire_pressure.xml"
+    }
+]

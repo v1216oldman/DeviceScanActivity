@@ -11,7 +11,14 @@
                     "endOffset": 92
                 },
                 "from": {
-                    "file": "F:\\android_App\\DeviceScanActivity\\app\\src\\main\\res\\values-zh-rTW\\strings.xml"
+                    "file": "F:\\android_App\\DeviceScanActivity\\app\\src\\main\\res\\values-zh-rTW\\strings.xml",
+                    "position": {
+                        "startLine": 56,
+                        "startColumn": 4,
+                        "startOffset": 2312,
+                        "endColumn": 41,
+                        "endOffset": 2349
+                    }
                 }
             },
             {
@@ -23,7 +30,14 @@
                     "endOffset": 141
                 },
                 "from": {
-                    "file": "F:\\android_App\\DeviceScanActivity\\app\\src\\main\\res\\values-zh-rTW\\strings.xml"
+                    "file": "F:\\android_App\\DeviceScanActivity\\app\\src\\main\\res\\values-zh-rTW\\strings.xml",
+                    "position": {
+                        "startLine": 60,
+                        "startColumn": 4,
+                        "startOffset": 2513,
+                        "endColumn": 48,
+                        "endOffset": 2557
+                    }
                 }
             },
             {
@@ -35,7 +49,14 @@
                     "endOffset": 204
                 },
                 "from": {
-                    "file": "F:\\android_App\\DeviceScanActivity\\app\\src\\main\\res\\values-zh-rTW\\strings.xml"
+                    "file": "F:\\android_App\\DeviceScanActivity\\app\\src\\main\\res\\values-zh-rTW\\strings.xml",
+                    "position": {
+                        "startLine": 55,
+                        "startColumn": 4,
+                        "startOffset": 2248,
+                        "endColumn": 62,
+                        "endOffset": 2306
+                    }
                 }
             },
             {
@@ -47,7 +68,14 @@
                     "endOffset": 249
                 },
                 "from": {
-                    "file": "F:\\android_App\\DeviceScanActivity\\app\\src\\main\\res\\values-zh-rTW\\strings.xml"
+                    "file": "F:\\android_App\\DeviceScanActivity\\app\\src\\main\\res\\values-zh-rTW\\strings.xml",
+                    "position": {
+                        "startLine": 54,
+                        "startColumn": 4,
+                        "startOffset": 2202,
+                        "endColumn": 44,
+                        "endOffset": 2242
+                    }
                 }
             },
             {
@@ -59,7 +87,14 @@
                     "endOffset": 297
                 },
                 "from": {
-                    "file": "F:\\android_App\\DeviceScanActivity\\app\\src\\main\\res\\values-zh-rTW\\strings.xml"
+                    "file": "F:\\android_App\\DeviceScanActivity\\app\\src\\main\\res\\values-zh-rTW\\strings.xml",
+                    "position": {
+                        "startLine": 62,
+                        "startColumn": 4,
+                        "startOffset": 2621,
+                        "endColumn": 47,
+                        "endOffset": 2664
+                    }
                 }
             },
             {
@@ -71,7 +106,14 @@
                     "endOffset": 358
                 },
                 "from": {
-                    "file": "F:\\android_App\\DeviceScanActivity\\app\\src\\main\\res\\values-zh-rTW\\strings.xml"
+                    "file": "F:\\android_App\\DeviceScanActivity\\app\\src\\main\\res\\values-zh-rTW\\strings.xml",
+                    "position": {
+                        "startLine": 63,
+                        "startColumn": 4,
+                        "startOffset": 2670,
+                        "endColumn": 60,
+                        "endOffset": 2726
+                    }
                 }
             },
             {
@@ -83,7 +125,14 @@
                     "endOffset": 397
                 },
                 "from": {
-                    "file": "F:\\android_App\\DeviceScanActivity\\app\\src\\main\\res\\values-zh-rTW\\strings.xml"
+                    "file": "F:\\android_App\\DeviceScanActivity\\app\\src\\main\\res\\values-zh-rTW\\strings.xml",
+                    "position": {
+                        "startLine": 73,
+                        "startColumn": 4,
+                        "startOffset": 3034,
+                        "endColumn": 38,
+                        "endOffset": 3068
+                    }
                 }
             },
             {
@@ -95,7 +144,14 @@
                     "endOffset": 436
                 },
                 "from": {
-                    "file": "F:\\android_App\\DeviceScanActivity\\app\\src\\main\\res\\values-zh-rTW\\strings.xml"
+                    "file": "F:\\android_App\\DeviceScanActivity\\app\\src\\main\\res\\values-zh-rTW\\strings.xml",
+                    "position": {
+                        "startLine": 74,
+                        "startColumn": 4,
+                        "startOffset": 3074,
+                        "endColumn": 38,
+                        "endOffset": 3108
+                    }
                 }
             },
             {
@@ -107,7 +163,14 @@
                     "endOffset": 475
                 },
                 "from": {
-                    "file": "F:\\android_App\\DeviceScanActivity\\app\\src\\main\\res\\values-zh-rTW\\strings.xml"
+                    "file": "F:\\android_App\\DeviceScanActivity\\app\\src\\main\\res\\values-zh-rTW\\strings.xml",
+                    "position": {
+                        "startLine": 75,
+                        "startColumn": 4,
+                        "startOffset": 3114,
+                        "endColumn": 38,
+                        "endOffset": 3148
+                    }
                 }
             },
             {
@@ -119,7 +182,14 @@
                     "endOffset": 514
                 },
                 "from": {
-                    "file": "F:\\android_App\\DeviceScanActivity\\app\\src\\main\\res\\values-zh-rTW\\strings.xml"
+                    "file": "F:\\android_App\\DeviceScanActivity\\app\\src\\main\\res\\values-zh-rTW\\strings.xml",
+                    "position": {
+                        "startLine": 76,
+                        "startColumn": 4,
+                        "startOffset": 3154,
+                        "endColumn": 38,
+                        "endOffset": 3188
+                    }
                 }
             },
             {
@@ -131,7 +201,14 @@
                     "endOffset": 553
                 },
                 "from": {
-                    "file": "F:\\android_App\\DeviceScanActivity\\app\\src\\main\\res\\values-zh-rTW\\strings.xml"
+                    "file": "F:\\android_App\\DeviceScanActivity\\app\\src\\main\\res\\values-zh-rTW\\strings.xml",
+                    "position": {
+                        "startLine": 77,
+                        "startColumn": 4,
+                        "startOffset": 3194,
+                        "endColumn": 38,
+                        "endOffset": 3228
+                    }
                 }
             },
             {
@@ -143,7 +220,14 @@
                     "endOffset": 609
                 },
                 "from": {
-                    "file": "F:\\android_App\\DeviceScanActivity\\app\\src\\main\\res\\values-zh-rTW\\strings.xml"
+                    "file": "F:\\android_App\\DeviceScanActivity\\app\\src\\main\\res\\values-zh-rTW\\strings.xml",
+                    "position": {
+                        "startLine": 57,
+                        "startColumn": 4,
+                        "startOffset": 2355,
+                        "endColumn": 55,
+                        "endOffset": 2406
+                    }
                 }
             },
             {
@@ -155,7 +239,14 @@
                     "endOffset": 656
                 },
                 "from": {
-                    "file": "F:\\android_App\\DeviceScanActivity\\app\\src\\main\\res\\values-zh-rTW\\strings.xml"
+                    "file": "F:\\android_App\\DeviceScanActivity\\app\\src\\main\\res\\values-zh-rTW\\strings.xml",
+                    "position": {
+                        "startLine": 53,
+                        "startColumn": 4,
+                        "startOffset": 2154,
+                        "endColumn": 46,
+                        "endOffset": 2196
+                    }
                 }
             },
             {
@@ -167,7 +258,14 @@
                     "endOffset": 696
                 },
                 "from": {
-                    "file": "F:\\android_App\\DeviceScanActivity\\app\\src\\main\\res\\values-zh-rTW\\strings.xml"
+                    "file": "F:\\android_App\\DeviceScanActivity\\app\\src\\main\\res\\values-zh-rTW\\strings.xml",
+                    "position": {
+                        "startLine": 79,
+                        "startColumn": 4,
+                        "startOffset": 3278,
+                        "endColumn": 39,
+                        "endOffset": 3313
+                    }
                 }
             },
             {
@@ -179,7 +277,14 @@
                     "endOffset": 744
                 },
                 "from": {
-                    "file": "F:\\android_App\\DeviceScanActivity\\app\\src\\main\\res\\values-zh-rTW\\strings.xml"
+                    "file": "F:\\android_App\\DeviceScanActivity\\app\\src\\main\\res\\values-zh-rTW\\strings.xml",
+                    "position": {
+                        "startLine": 58,
+                        "startColumn": 4,
+                        "startOffset": 2412,
+                        "endColumn": 47,
+                        "endOffset": 2455
+                    }
                 }
             },
             {
@@ -191,7 +296,14 @@
                     "endOffset": 787
                 },
                 "from": {
-                    "file": "F:\\android_App\\DeviceScanActivity\\app\\src\\main\\res\\values-zh-rTW\\strings.xml"
+                    "file": "F:\\android_App\\DeviceScanActivity\\app\\src\\main\\res\\values-zh-rTW\\strings.xml",
+                    "position": {
+                        "startLine": 78,
+                        "startColumn": 4,
+                        "startOffset": 3234,
+                        "endColumn": 42,
+                        "endOffset": 3272
+                    }
                 }
             },
             {
@@ -203,7 +315,14 @@
                     "endOffset": 838
                 },
                 "from": {
-                    "file": "F:\\android_App\\DeviceScanActivity\\app\\src\\main\\res\\values-zh-rTW\\strings.xml"
+                    "file": "F:\\android_App\\DeviceScanActivity\\app\\src\\main\\res\\values-zh-rTW\\strings.xml",
+                    "position": {
+                        "startLine": 59,
+                        "startColumn": 4,
+                        "startOffset": 2461,
+                        "endColumn": 50,
+                        "endOffset": 2507
+                    }
                 }
             },
             {
@@ -215,7 +334,14 @@
                     "endOffset": 891
                 },
                 "from": {
-                    "file": "F:\\android_App\\DeviceScanActivity\\app\\src\\main\\res\\values-zh-rTW\\strings.xml"
+                    "file": "F:\\android_App\\DeviceScanActivity\\app\\src\\main\\res\\values-zh-rTW\\strings.xml",
+                    "position": {
+                        "startLine": 80,
+                        "startColumn": 4,
+                        "startOffset": 3319,
+                        "endColumn": 52,
+                        "endOffset": 3367
+                    }
                 }
             },
             {
@@ -227,7 +353,14 @@
                     "endOffset": 948
                 },
                 "from": {
-                    "file": "F:\\android_App\\DeviceScanActivity\\app\\src\\main\\res\\values-zh-rTW\\strings.xml"
+                    "file": "F:\\android_App\\DeviceScanActivity\\app\\src\\main\\res\\values-zh-rTW\\strings.xml",
+                    "position": {
+                        "startLine": 61,
+                        "startColumn": 4,
+                        "startOffset": 2563,
+                        "endColumn": 56,
+                        "endOffset": 2615
+                    }
                 }
             },
             {
@@ -239,7 +372,14 @@
                     "endOffset": 993
                 },
                 "from": {
-                    "file": "F:\\android_App\\DeviceScanActivity\\app\\src\\main\\res\\values-zh-rTW\\strings.xml"
+                    "file": "F:\\android_App\\DeviceScanActivity\\app\\src\\main\\res\\values-zh-rTW\\strings.xml",
+                    "position": {
+                        "startLine": 66,
+                        "startColumn": 4,
+                        "startOffset": 2764,
+                        "endColumn": 44,
+                        "endOffset": 2804
+                    }
                 }
             },
             {
@@ -251,7 +391,14 @@
                     "endOffset": 1038
                 },
                 "from": {
-                    "file": "F:\\android_App\\DeviceScanActivity\\app\\src\\main\\res\\values-zh-rTW\\strings.xml"
+                    "file": "F:\\android_App\\DeviceScanActivity\\app\\src\\main\\res\\values-zh-rTW\\strings.xml",
+                    "position": {
+                        "startLine": 67,
+                        "startColumn": 4,
+                        "startOffset": 2810,
+                        "endColumn": 44,
+                        "endOffset": 2850
+                    }
                 }
             },
             {
@@ -263,7 +410,14 @@
                     "endOffset": 1083
                 },
                 "from": {
-                    "file": "F:\\android_App\\DeviceScanActivity\\app\\src\\main\\res\\values-zh-rTW\\strings.xml"
+                    "file": "F:\\android_App\\DeviceScanActivity\\app\\src\\main\\res\\values-zh-rTW\\strings.xml",
+                    "position": {
+                        "startLine": 68,
+                        "startColumn": 4,
+                        "startOffset": 2856,
+                        "endColumn": 44,
+                        "endOffset": 2896
+                    }
                 }
             },
             {
@@ -275,7 +429,14 @@
                     "endOffset": 1128
                 },
                 "from": {
-                    "file": "F:\\android_App\\DeviceScanActivity\\app\\src\\main\\res\\values-zh-rTW\\strings.xml"
+                    "file": "F:\\android_App\\DeviceScanActivity\\app\\src\\main\\res\\values-zh-rTW\\strings.xml",
+                    "position": {
+                        "startLine": 69,
+                        "startColumn": 4,
+                        "startOffset": 2902,
+                        "endColumn": 44,
+                        "endOffset": 2942
+                    }
                 }
             },
             {
@@ -287,7 +448,14 @@
                     "endOffset": 1173
                 },
                 "from": {
-                    "file": "F:\\android_App\\DeviceScanActivity\\app\\src\\main\\res\\values-zh-rTW\\strings.xml"
+                    "file": "F:\\android_App\\DeviceScanActivity\\app\\src\\main\\res\\values-zh-rTW\\strings.xml",
+                    "position": {
+                        "startLine": 70,
+                        "startColumn": 4,
+                        "startOffset": 2948,
+                        "endColumn": 44,
+                        "endOffset": 2988
+                    }
                 }
             },
             {
@@ -299,7 +467,14 @@
                     "endOffset": 1223
                 },
                 "from": {
-                    "file": "F:\\android_App\\DeviceScanActivity\\app\\src\\main\\res\\values-zh-rTW\\strings.xml"
+                    "file": "F:\\android_App\\DeviceScanActivity\\app\\src\\main\\res\\values-zh-rTW\\strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 59,
+                        "endColumn": 49,
+                        "endOffset": 104
+                    }
                 }
             },
             {
@@ -311,7 +486,14 @@
                     "endOffset": 1290
                 },
                 "from": {
-                    "file": "F:\\android_App\\DeviceScanActivity\\app\\src\\main\\res\\values-zh-rTW\\strings.xml"
+                    "file": "F:\\android_App\\DeviceScanActivity\\app\\src\\main\\res\\values-zh-rTW\\strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 110,
+                        "endColumn": 66,
+                        "endOffset": 172
+                    }
                 }
             },
             {
@@ -323,7 +505,14 @@
                     "endOffset": 1338
                 },
                 "from": {
-                    "file": "F:\\android_App\\DeviceScanActivity\\app\\src\\main\\res\\values-zh-rTW\\strings.xml"
+                    "file": "F:\\android_App\\DeviceScanActivity\\app\\src\\main\\res\\values-zh-rTW\\strings.xml",
+                    "position": {
+                        "startLine": 41,
+                        "startColumn": 4,
+                        "startOffset": 1741,
+                        "endColumn": 47,
+                        "endOffset": 1784
+                    }
                 }
             },
             {
@@ -335,7 +524,14 @@
                     "endOffset": 1385
                 },
                 "from": {
-                    "file": "F:\\android_App\\DeviceScanActivity\\app\\src\\main\\res\\values-zh-rTW\\strings.xml"
+                    "file": "F:\\android_App\\DeviceScanActivity\\app\\src\\main\\res\\values-zh-rTW\\strings.xml",
+                    "position": {
+                        "startLine": 39,
+                        "startColumn": 4,
+                        "startOffset": 1642,
+                        "endColumn": 46,
+                        "endOffset": 1684
+                    }
                 }
             },
             {
@@ -347,7 +543,14 @@
                     "endOffset": 1435
                 },
                 "from": {
-                    "file": "F:\\android_App\\DeviceScanActivity\\app\\src\\main\\res\\values-zh-rTW\\strings.xml"
+                    "file": "F:\\android_App\\DeviceScanActivity\\app\\src\\main\\res\\values-zh-rTW\\strings.xml",
+                    "position": {
+                        "startLine": 40,
+                        "startColumn": 4,
+                        "startOffset": 1690,
+                        "endColumn": 49,
+                        "endOffset": 1735
+                    }
                 }
             },
             {
@@ -359,7 +562,14 @@
                     "endOffset": 1491
                 },
                 "from": {
-                    "file": "F:\\android_App\\DeviceScanActivity\\app\\src\\main\\res\\values-zh-rTW\\strings.xml"
+                    "file": "F:\\android_App\\DeviceScanActivity\\app\\src\\main\\res\\values-zh-rTW\\strings.xml",
+                    "position": {
+                        "startLine": 42,
+                        "startColumn": 4,
+                        "startOffset": 1790,
+                        "endColumn": 55,
+                        "endOffset": 1841
+                    }
                 }
             },
             {
@@ -371,7 +581,14 @@
                     "endOffset": 1538
                 },
                 "from": {
-                    "file": "F:\\android_App\\DeviceScanActivity\\app\\src\\main\\res\\values-zh-rTW\\strings.xml"
+                    "file": "F:\\android_App\\DeviceScanActivity\\app\\src\\main\\res\\values-zh-rTW\\strings.xml",
+                    "position": {
+                        "startLine": 35,
+                        "startColumn": 4,
+                        "startOffset": 1498,
+                        "endColumn": 46,
+                        "endOffset": 1540
+                    }
                 }
             },
             {
@@ -383,7 +600,14 @@
                     "endOffset": 1583
                 },
                 "from": {
-                    "file": "F:\\android_App\\DeviceScanActivity\\app\\src\\main\\res\\values-zh-rTW\\strings.xml"
+                    "file": "F:\\android_App\\DeviceScanActivity\\app\\src\\main\\res\\values-zh-rTW\\strings.xml",
+                    "position": {
+                        "startLine": 37,
+                        "startColumn": 4,
+                        "startOffset": 1594,
+                        "endColumn": 44,
+                        "endOffset": 1634
+                    }
                 }
             },
             {
@@ -395,7 +619,14 @@
                     "endOffset": 1630
                 },
                 "from": {
-                    "file": "F:\\android_App\\DeviceScanActivity\\app\\src\\main\\res\\values-zh-rTW\\strings.xml"
+                    "file": "F:\\android_App\\DeviceScanActivity\\app\\src\\main\\res\\values-zh-rTW\\strings.xml",
+                    "position": {
+                        "startLine": 36,
+                        "startColumn": 4,
+                        "startOffset": 1546,
+                        "endColumn": 46,
+                        "endOffset": 1588
+                    }
                 }
             },
             {
@@ -407,7 +638,14 @@
                     "endOffset": 1678
                 },
                 "from": {
-                    "file": "F:\\android_App\\DeviceScanActivity\\app\\src\\main\\res\\values-zh-rTW\\strings.xml"
+                    "file": "F:\\android_App\\DeviceScanActivity\\app\\src\\main\\res\\values-zh-rTW\\strings.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 430,
+                        "endColumn": 47,
+                        "endOffset": 473
+                    }
                 }
             },
             {
@@ -423,9 +661,9 @@
                     "position": {
                         "startLine": 24,
                         "startColumn": 4,
-                        "startOffset": 1119,
+                        "startOffset": 1122,
                         "endColumn": 56,
-                        "endOffset": 1171
+                        "endOffset": 1174
                     }
                 }
             },
@@ -442,9 +680,9 @@
                     "position": {
                         "startLine": 22,
                         "startColumn": 4,
-                        "startOffset": 1002,
+                        "startOffset": 1005,
                         "endColumn": 55,
-                        "endOffset": 1053
+                        "endOffset": 1056
                     }
                 }
             },
@@ -461,9 +699,9 @@
                     "position": {
                         "startLine": 23,
                         "startColumn": 4,
-                        "startOffset": 1059,
+                        "startOffset": 1062,
                         "endColumn": 58,
-                        "endOffset": 1113
+                        "endOffset": 1116
                     }
                 }
             },
@@ -480,9 +718,9 @@
                     "position": {
                         "startLine": 25,
                         "startColumn": 4,
-                        "startOffset": 1177,
+                        "startOffset": 1180,
                         "endColumn": 64,
-                        "endOffset": 1237
+                        "endOffset": 1240
                     }
                 }
             },
@@ -499,9 +737,9 @@
                     "position": {
                         "startLine": 21,
                         "startColumn": 4,
-                        "startOffset": 947,
+                        "startOffset": 950,
                         "endColumn": 53,
-                        "endOffset": 996
+                        "endOffset": 999
                     }
                 }
             },
@@ -510,8 +748,8 @@
                     "startLine": 41,
                     "startColumn": 4,
                     "startOffset": 1974,
-                    "endColumn": 44,
-                    "endOffset": 2014
+                    "endColumn": 47,
+                    "endOffset": 2017
                 },
                 "from": {
                     "file": "F:\\android_App\\DeviceScanActivity\\app\\src\\main\\res\\values-zh-rTW\\strings.xml",
@@ -519,8 +757,8 @@
                         "startLine": 20,
                         "startColumn": 4,
                         "startOffset": 901,
-                        "endColumn": 44,
-                        "endOffset": 941
+                        "endColumn": 47,
+                        "endOffset": 944
                     }
                 }
             },
@@ -528,240 +766,380 @@
                 "to": {
                     "startLine": 42,
                     "startColumn": 4,
-                    "startOffset": 2019,
+                    "startOffset": 2022,
                     "endColumn": 53,
-                    "endOffset": 2068
+                    "endOffset": 2071
                 },
                 "from": {
-                    "file": "F:\\android_App\\DeviceScanActivity\\app\\src\\main\\res\\values-zh-rTW\\strings.xml"
+                    "file": "F:\\android_App\\DeviceScanActivity\\app\\src\\main\\res\\values-zh-rTW\\strings.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 479,
+                        "endColumn": 53,
+                        "endOffset": 528
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 43,
                     "startColumn": 4,
-                    "startOffset": 2073,
+                    "startOffset": 2076,
                     "endColumn": 82,
-                    "endOffset": 2151
+                    "endOffset": 2154
                 },
                 "from": {
-                    "file": "F:\\android_App\\DeviceScanActivity\\app\\src\\main\\res\\values-zh-rTW\\strings.xml"
+                    "file": "F:\\android_App\\DeviceScanActivity\\app\\src\\main\\res\\values-zh-rTW\\strings.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 593,
+                        "endColumn": 82,
+                        "endOffset": 671
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 44,
                     "startColumn": 4,
-                    "startOffset": 2156,
+                    "startOffset": 2159,
                     "endColumn": 42,
-                    "endOffset": 2194
+                    "endOffset": 2197
                 },
                 "from": {
-                    "file": "F:\\android_App\\DeviceScanActivity\\app\\src\\main\\res\\values-zh-rTW\\strings.xml"
+                    "file": "F:\\android_App\\DeviceScanActivity\\app\\src\\main\\res\\values-zh-rTW\\strings.xml",
+                    "position": {
+                        "startLine": 50,
+                        "startColumn": 4,
+                        "startOffset": 2072,
+                        "endColumn": 42,
+                        "endOffset": 2110
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 45,
                     "startColumn": 4,
-                    "startOffset": 2199,
+                    "startOffset": 2202,
                     "endColumn": 42,
-                    "endOffset": 2237
+                    "endOffset": 2240
                 },
                 "from": {
-                    "file": "F:\\android_App\\DeviceScanActivity\\app\\src\\main\\res\\values-zh-rTW\\strings.xml"
+                    "file": "F:\\android_App\\DeviceScanActivity\\app\\src\\main\\res\\values-zh-rTW\\strings.xml",
+                    "position": {
+                        "startLine": 49,
+                        "startColumn": 4,
+                        "startOffset": 2028,
+                        "endColumn": 42,
+                        "endOffset": 2066
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 46,
                     "startColumn": 4,
-                    "startOffset": 2242,
+                    "startOffset": 2245,
                     "endColumn": 44,
-                    "endOffset": 2282
+                    "endOffset": 2285
                 },
                 "from": {
-                    "file": "F:\\android_App\\DeviceScanActivity\\app\\src\\main\\res\\values-zh-rTW\\strings.xml"
+                    "file": "F:\\android_App\\DeviceScanActivity\\app\\src\\main\\res\\values-zh-rTW\\strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 178,
+                        "endColumn": 44,
+                        "endOffset": 218
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 47,
                     "startColumn": 4,
-                    "startOffset": 2287,
+                    "startOffset": 2290,
                     "endColumn": 45,
-                    "endOffset": 2328
+                    "endOffset": 2331
                 },
                 "from": {
-                    "file": "F:\\android_App\\DeviceScanActivity\\app\\src\\main\\res\\values-zh-rTW\\strings.xml"
+                    "file": "F:\\android_App\\DeviceScanActivity\\app\\src\\main\\res\\values-zh-rTW\\strings.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 224,
+                        "endColumn": 45,
+                        "endOffset": 265
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 48,
                     "startColumn": 4,
-                    "startOffset": 2333,
+                    "startOffset": 2336,
                     "endColumn": 64,
-                    "endOffset": 2393
+                    "endOffset": 2396
                 },
                 "from": {
-                    "file": "F:\\android_App\\DeviceScanActivity\\app\\src\\main\\res\\values-zh-rTW\\strings.xml"
+                    "file": "F:\\android_App\\DeviceScanActivity\\app\\src\\main\\res\\values-zh-rTW\\strings.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 271,
+                        "endColumn": 64,
+                        "endOffset": 331
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 49,
                     "startColumn": 4,
-                    "startOffset": 2398,
+                    "startOffset": 2401,
                     "endColumn": 46,
-                    "endOffset": 2440
+                    "endOffset": 2443
                 },
                 "from": {
-                    "file": "F:\\android_App\\DeviceScanActivity\\app\\src\\main\\res\\values-zh-rTW\\strings.xml"
+                    "file": "F:\\android_App\\DeviceScanActivity\\app\\src\\main\\res\\values-zh-rTW\\strings.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 337,
+                        "endColumn": 46,
+                        "endOffset": 379
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 50,
                     "startColumn": 4,
-                    "startOffset": 2445,
+                    "startOffset": 2448,
                     "endColumn": 48,
-                    "endOffset": 2489
+                    "endOffset": 2492
                 },
                 "from": {
-                    "file": "F:\\android_App\\DeviceScanActivity\\app\\src\\main\\res\\values-zh-rTW\\strings.xml"
+                    "file": "F:\\android_App\\DeviceScanActivity\\app\\src\\main\\res\\values-zh-rTW\\strings.xml",
+                    "position": {
+                        "startLine": 28,
+                        "startColumn": 4,
+                        "startOffset": 1273,
+                        "endColumn": 48,
+                        "endOffset": 1317
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 51,
                     "startColumn": 4,
-                    "startOffset": 2494,
+                    "startOffset": 2497,
                     "endColumn": 54,
-                    "endOffset": 2544
+                    "endOffset": 2547
                 },
                 "from": {
-                    "file": "F:\\android_App\\DeviceScanActivity\\app\\src\\main\\res\\values-zh-rTW\\strings.xml"
+                    "file": "F:\\android_App\\DeviceScanActivity\\app\\src\\main\\res\\values-zh-rTW\\strings.xml",
+                    "position": {
+                        "startLine": 29,
+                        "startColumn": 4,
+                        "startOffset": 1323,
+                        "endColumn": 54,
+                        "endOffset": 1373
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 52,
                     "startColumn": 4,
-                    "startOffset": 2549,
+                    "startOffset": 2552,
                     "endColumn": 42,
-                    "endOffset": 2587
+                    "endOffset": 2590
                 },
                 "from": {
-                    "file": "F:\\android_App\\DeviceScanActivity\\app\\src\\main\\res\\values-zh-rTW\\strings.xml"
+                    "file": "F:\\android_App\\DeviceScanActivity\\app\\src\\main\\res\\values-zh-rTW\\strings.xml",
+                    "position": {
+                        "startLine": 30,
+                        "startColumn": 4,
+                        "startOffset": 1379,
+                        "endColumn": 42,
+                        "endOffset": 1417
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 53,
                     "startColumn": 4,
-                    "startOffset": 2592,
+                    "startOffset": 2595,
                     "endColumn": 42,
-                    "endOffset": 2630
+                    "endOffset": 2633
                 },
                 "from": {
-                    "file": "F:\\android_App\\DeviceScanActivity\\app\\src\\main\\res\\values-zh-rTW\\strings.xml"
+                    "file": "F:\\android_App\\DeviceScanActivity\\app\\src\\main\\res\\values-zh-rTW\\strings.xml",
+                    "position": {
+                        "startLine": 31,
+                        "startColumn": 4,
+                        "startOffset": 1423,
+                        "endColumn": 42,
+                        "endOffset": 1461
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 54,
                     "startColumn": 4,
-                    "startOffset": 2635,
+                    "startOffset": 2638,
                     "endColumn": 43,
-                    "endOffset": 2674
+                    "endOffset": 2677
                 },
                 "from": {
-                    "file": "F:\\android_App\\DeviceScanActivity\\app\\src\\main\\res\\values-zh-rTW\\strings.xml"
+                    "file": "F:\\android_App\\DeviceScanActivity\\app\\src\\main\\res\\values-zh-rTW\\strings.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 385,
+                        "endColumn": 43,
+                        "endOffset": 424
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 55,
                     "startColumn": 4,
-                    "startOffset": 2679,
+                    "startOffset": 2682,
                     "endColumn": 58,
-                    "endOffset": 2733
+                    "endOffset": 2736
                 },
                 "from": {
-                    "file": "F:\\android_App\\DeviceScanActivity\\app\\src\\main\\res\\values-zh-rTW\\strings.xml"
+                    "file": "F:\\android_App\\DeviceScanActivity\\app\\src\\main\\res\\values-zh-rTW\\strings.xml",
+                    "position": {
+                        "startLine": 48,
+                        "startColumn": 4,
+                        "startOffset": 1968,
+                        "endColumn": 58,
+                        "endOffset": 2022
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 56,
                     "startColumn": 4,
-                    "startOffset": 2738,
+                    "startOffset": 2741,
                     "endColumn": 36,
-                    "endOffset": 2770
+                    "endOffset": 2773
                 },
                 "from": {
-                    "file": "F:\\android_App\\DeviceScanActivity\\app\\src\\main\\res\\values-zh-rTW\\strings.xml"
+                    "file": "F:\\android_App\\DeviceScanActivity\\app\\src\\main\\res\\values-zh-rTW\\strings.xml",
+                    "position": {
+                        "startLine": 46,
+                        "startColumn": 4,
+                        "startOffset": 1880,
+                        "endColumn": 36,
+                        "endOffset": 1912
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 57,
                     "startColumn": 4,
-                    "startOffset": 2775,
+                    "startOffset": 2778,
                     "endColumn": 57,
-                    "endOffset": 2828
+                    "endOffset": 2831
                 },
                 "from": {
-                    "file": "F:\\android_App\\DeviceScanActivity\\app\\src\\main\\res\\values-zh-rTW\\strings.xml"
+                    "file": "F:\\android_App\\DeviceScanActivity\\app\\src\\main\\res\\values-zh-rTW\\strings.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 534,
+                        "endColumn": 57,
+                        "endOffset": 587
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 58,
                     "startColumn": 4,
-                    "startOffset": 2833,
+                    "startOffset": 2836,
                     "endColumn": 48,
-                    "endOffset": 2877
+                    "endOffset": 2880
                 },
                 "from": {
-                    "file": "F:\\android_App\\DeviceScanActivity\\app\\src\\main\\res\\values-zh-rTW\\strings.xml"
+                    "file": "F:\\android_App\\DeviceScanActivity\\app\\src\\main\\res\\values-zh-rTW\\strings.xml",
+                    "position": {
+                        "startLine": 47,
+                        "startColumn": 4,
+                        "startOffset": 1918,
+                        "endColumn": 48,
+                        "endOffset": 1962
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 59,
                     "startColumn": 4,
-                    "startOffset": 2882,
+                    "startOffset": 2885,
                     "endColumn": 73,
-                    "endOffset": 2951
+                    "endOffset": 2954
                 },
                 "from": {
-                    "file": "F:\\android_App\\DeviceScanActivity\\app\\src\\main\\res\\values-zh-rTW\\strings.xml"
+                    "file": "F:\\android_App\\DeviceScanActivity\\app\\src\\main\\res\\values-zh-rTW\\strings.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 738,
+                        "endColumn": 73,
+                        "endOffset": 807
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 60,
                     "startColumn": 4,
-                    "startOffset": 2956,
+                    "startOffset": 2959,
                     "endColumn": 57,
-                    "endOffset": 3009
+                    "endOffset": 3012
                 },
                 "from": {
-                    "file": "F:\\android_App\\DeviceScanActivity\\app\\src\\main\\res\\values-zh-rTW\\strings.xml"
+                    "file": "F:\\android_App\\DeviceScanActivity\\app\\src\\main\\res\\values-zh-rTW\\strings.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 679,
+                        "endColumn": 57,
+                        "endOffset": 732
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 61,
                     "startColumn": 4,
-                    "startOffset": 3014,
+                    "startOffset": 3017,
                     "endColumn": 59,
-                    "endOffset": 3069
+                    "endOffset": 3072
                 },
                 "from": {
-                    "file": "F:\\android_App\\DeviceScanActivity\\app\\src\\main\\res\\values-zh-rTW\\strings.xml"
+                    "file": "F:\\android_App\\DeviceScanActivity\\app\\src\\main\\res\\values-zh-rTW\\strings.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 813,
+                        "endColumn": 59,
+                        "endOffset": 868
+                    }
                 }
             }
         ]
